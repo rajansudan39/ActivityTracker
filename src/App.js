@@ -121,7 +121,7 @@ const App = () => {
           'rgba(153, 102, 255, 1)',
           'rgba(255, 159, 64, 1)',
         ],
-        borderWidth: 1,
+        borderWidth: 3,
       },
     ],
   };
@@ -222,10 +222,10 @@ const App = () => {
                       }}
                     >
                       <CardContent>
-                        <Typography variant="subtitle1" style={{ fontWeight: 600 }}>
+                        <Typography variant="subtitle1" style={{ fontWeight: 600 , color: "white"}}>
                           {activity.name}
                         </Typography>
-                        <Typography variant="h6" style={{ fontWeight: 700 }}>
+                        <Typography variant="h6" style={{ fontWeight: 700, color: "white" }}>
                           {activity.value}
                         </Typography>
                       </CardContent>
