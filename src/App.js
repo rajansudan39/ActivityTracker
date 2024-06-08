@@ -30,7 +30,7 @@ const App = () => {
          "https://raw.githubusercontent.com/rajansudan39/rajansudan39/main/sample-data.json "
         );
         setData(result.data.data);
-        setSelectedUser(result.data.data.AuthorWorklog.rows[0].name); // Default to the first user
+        setSelectedUser(result.data.data.AuthorWorklog.rows[0].name); 
       } catch (error) {
         setError("Error fetching the data");
         console.error("Error fetching the data", error);
@@ -121,7 +121,7 @@ const App = () => {
           'rgba(153, 102, 255, 1)',
           'rgba(255, 159, 64, 1)',
         ],
-        borderWidth: 3,
+        borderWidth: 2,
       },
     ],
   };
@@ -346,7 +346,7 @@ const App = () => {
                         'rgba(153, 102, 255, 1)',
                         'rgba(255, 159, 64, 1)',
                       ],
-                      borderWidth: 1,
+                      borderWidth: 2,
                     },
                   ],
                 }}
